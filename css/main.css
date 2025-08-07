@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    
+    background-color: aqua;
+    width: 100px;
+}
+.Box{
+    display:grid;
+    grid-template-columns: fr1 fr1 fr1;
+}
