@@ -1,13 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 .container{
-    
-    background-color: aqua;
-    width: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .Box{
-    display:grid;
-    grid-template-columns: fr1 fr1 fr1;
+   height: 150px;
+   border: 1px solid black;
+   background-color: lightblue;
+   color: #F27000;
+   text-align: center;
+   
 }
